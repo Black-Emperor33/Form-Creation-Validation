@@ -24,7 +24,7 @@ try {
 
   } catch (error) {
     // Handle errors if the request fails
-    dataContainer.textContent = "Failed to fetch user data.";
+    dataContainer.textContent = "Failed to load user data.";
     console.error("Error fetching data:", error);
   }
 }
